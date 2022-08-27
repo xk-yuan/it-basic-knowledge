@@ -1,0 +1,285 @@
+xknower@ubuntu:~/Desktop/openjdk/jdk9/openjdk$ ./configure --with-boot-jdk=/home/xknower/Desktop/openjdk/jdk8/java-se-8u41-ri
+Running generated-configure.sh
+configure: Configuration created at Mon Oct 18 05:21:13 PDT 2021.
+configure: configure script generated at timestamp 1496926402.
+checking for basename... /usr/bin/basename
+checking for bash... /usr/bin/bash
+checking for cat... /usr/bin/cat
+checking for chmod... /usr/bin/chmod
+checking for cmp... /usr/bin/cmp
+checking for comm... /usr/bin/comm
+checking for cp... /usr/bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /usr/bin/date
+checking for gdiff... no
+checking for diff... /usr/bin/diff
+checking for dirname... /usr/bin/dirname
+checking for echo... /usr/bin/echo
+checking for expr... /usr/bin/expr
+checking for file... /usr/bin/file
+checking for find... /usr/bin/find
+checking for head... /usr/bin/head
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... no
+checking for gzip... /usr/bin/gzip
+checking for ln... /usr/bin/ln
+checking for ls... /usr/bin/ls
+checking for mkdir... /usr/bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /usr/bin/mv
+checking for nawk... /usr/bin/nawk
+checking for printf... /usr/bin/printf
+checking for rm... /usr/bin/rm
+checking for rmdir... /usr/bin/rmdir
+checking for sh... /usr/bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... no
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for uniq... /usr/bin/uniq
+checking for wc... /usr/bin/wc
+checking for which... /usr/bin/which
+checking for xargs... /usr/bin/xargs
+checking for gawk... no
+checking for mawk... mawk
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for cygpath... no
+checking for greadlink... no
+checking for readlink... /usr/bin/readlink
+checking for df... /usr/bin/df
+checking for cpio... /usr/bin/cpio
+checking for nice... /usr/bin/nice
+checking for pandoc... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking openjdk-build os-cpu... linux-x86_64
+checking openjdk-target os-cpu... linux-x86_64
+checking compilation type... native
+checking for top-level directory... /home/xknower/Desktop/openjdk/jdk9/openjdk
+checking if custom source is suppressed (openjdk-only)... no
+checking which variant of the JDK to build... normal
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking for sysroot... 
+checking for toolchain path... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... linux-x86_64-normal-server-release
+checking for apt-get... apt-get
+checking for gmake... no
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 4.2.1)
+checking if make --output-sync is supported... yes
+checking for output-sync value... none
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for ldd... /usr/bin/ldd
+checking for otool... no
+checking for greadelf... no
+checking for readelf... /usr/bin/readelf
+checking for dot... no
+checking for hg... no
+checking for stat... /usr/bin/stat
+checking for time... /usr/bin/time
+checking for dtrace... no
+checking for gpatch... no
+checking for patch... /usr/bin/patch
+checking bash version... 5.0.17
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking headless only... no
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking full docs... no, missing dependencies
+checking if packaged modules are kept... yes (default)
+checking for version string... 9-internal+0-adhoc.xknower.openjdk
+configure: Found potential Boot JDK using configure arguments
+checking for Boot JDK... /home/xknower/Desktop/openjdk/jdk8/java-se-8u41-ri
+checking Boot JDK version... openjdk version "1.8.0_41" OpenJDK Runtime Environment (build 1.8.0_41-b04) OpenJDK 64-Bit Server VM (build 25.40-b25, mixed mode) 
+checking for java in Boot JDK... ok
+checking for javac in Boot JDK... ok
+checking for javah in Boot JDK... ok
+checking for jar in Boot JDK... ok
+checking for jarsigner in Boot JDK... ok
+checking if Boot JDK supports modules... no
+checking if Boot JDK is 32 or 64 bits... 64
+checking for Build JDK... yes, will use output dir
+configure: Using default toolchain gcc (GNU Compiler Collection)
+checking for gcc... /usr/bin/gcc
+checking resolved symbolic links for CC... /usr/bin/x86_64-linux-gnu-gcc-9
+configure: Using gcc C compiler version 9.3.0 [gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0]
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to accept ISO C89... none needed
+checking for g++... /usr/bin/g++
+checking resolved symbolic links for CXX... /usr/bin/x86_64-linux-gnu-g++-9
+configure: Using gcc C++ compiler version 9.3.0 [g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0]
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/g++ accepts -g... yes
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking how to run the C++ preprocessor... /usr/bin/g++ -E
+checking for ar... ar
+configure: Rewriting AR to "/usr/bin/ar"
+checking for strip... strip
+configure: Rewriting STRIP to "/usr/bin/strip"
+checking for nm... nm
+configure: Rewriting NM to "/usr/bin/nm"
+checking for gobjcopy... no
+checking for objcopy... objcopy
+configure: Rewriting OBJCOPY to "/usr/bin/objcopy"
+checking for gobjdump... no
+checking for objdump... objdump
+configure: Rewriting OBJDUMP to "/usr/bin/objdump"
+checking if the C compiler supports "-Og"... yes
+checking if the C++ compiler supports "-Og"... yes
+checking if both compilers support "-Og"... yes
+checking if linker supports "-Wl,-z,relro"... yes
+checking if linker supports "-Wl,-z,now"... yes
+checking for broken SuSE 'ld' which only understands anonymous version tags in executables... no
+checking for jtreg... no
+checking for jtreg test harness... no, not found
+checking if @file is supported by gcc... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking size of int *... 8
+checking for target address size... 64 bits
+checking whether byte ordering is bigendian... no
+checking if the C++ compiler supports "-std=gnu++98 -Werror"... yes
+configure: GCC >= 6 detected; adding -fno-delete-null-pointer-checks and -fno-lifetime-dse
+checking if the C++ compiler supports "-std=gnu++98 -Werror"... yes
+configure: GCC >= 6 detected; adding -fno-delete-null-pointer-checks and -fno-lifetime-dse
+checking if the C compiler supports "-m64"... yes
+checking if the C++ compiler supports "-m64"... yes
+checking if both compilers support "-m64"... yes
+checking if native warnings are errors... yes (default)
+checking if the C compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if the C++ compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if both compilers support "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if the C compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if the C++ compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if both compilers support "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking what type of native debug symbols to use... zipped
+checking for dtrace tool... not found, cannot build dtrace
+checking sys/sdt.h usability... no
+checking sys/sdt.h presence... no
+checking for sys/sdt.h... no
+checking if dtrace should be built... no, missing dependencies
+checking if Hotspot gtest unit tests should be built... yes
+checking if static link of stdc++ is possible... yes
+checking how to link with libstdc++... static
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for X11/extensions/shape.h... yes
+checking for X11/extensions/Xrender.h... yes
+checking for X11/extensions/XTest.h... yes
+checking for X11/Intrinsic.h... yes
+checking if XlinearGradient is defined in Xrender.h... yes
+checking cups/cups.h usability... yes
+checking cups/cups.h presence... yes
+checking for cups/cups.h... yes
+checking cups/ppd.h usability... yes
+checking cups/ppd.h presence... yes
+checking for cups/ppd.h... yes
+checking for FREETYPE... yes
+checking for freetype... yes (using pkg-config)
+checking if we can compile and link with freetype... yes
+checking if we should bundle freetype... no
+checking for ALSA... yes
+checking for which libjpeg to use... bundled
+checking for which giflib to use... bundled
+checking for which libpng to use... bundled
+checking for compress in -lz... yes
+checking for which zlib to use... system
+checking for which lcms to use... bundled
+checking for cos in -lm... yes
+checking for dlopen in -ldl... yes
+checking for ELF... no
+checking libelf.h usability... no
+checking libelf.h presence... no
+checking for libelf.h... no
+configure: WARNING: libelf not found, cannot build AOT. You might be able to fix this by running 'sudo apt-get install libelf-dev'.
+checking if jdk.internal.vm.compiler should be built... no
+checking if aot should be enabled... no
+checking if elliptic curve crypto implementation is present... yes
+checking if jtreg failure handler should be built... no, missing jtreg
+checking if the CDS classlist generation should be enabled... yes
+checking for number of cores... 4
+checking for memory size... 3901 MB
+checking for appropriate number of jobs to run in parallel... 3
+checking flags for boot jdk java command ...  -Duser.language=en -Duser.country=US 
+checking flags for boot jdk java command for big workloads...  -Xms64M -Xmx1600M -XX:ThreadStackSize=1536
+checking flags for bootcycle boot jdk java command for big workloads... -Xms64M -Xmx1600M -XX:ThreadStackSize=1536
+checking flags for boot jdk java command for small workloads...  -XX:+UseSerialGC -Xms32M -Xmx512M -XX:TieredStopAtLevel=1
+checking whether to use sjavac... no
+checking whether to use javac server... yes
+checking If precompiled header is enabled... yes
+checking that precompiled headers work... yes
+checking is ccache enabled... no
+checking if build directory is on local disk... yes
+checking JVM features for JVM variant 'server'... all-gcs cds compiler1 compiler2 fprof jni-check jvmci jvmti management nmt services vm-structs
+configure: creating /home/xknower/Desktop/openjdk/jdk9/openjdk/build/linux-x86_64-normal-server-release/configure-support/config.status
+config.status: creating /home/xknower/Desktop/openjdk/jdk9/openjdk/build/linux-x86_64-normal-server-release/spec.gmk
+config.status: creating /home/xknower/Desktop/openjdk/jdk9/openjdk/build/linux-x86_64-normal-server-release/bootcycle-spec.gmk
+config.status: creating /home/xknower/Desktop/openjdk/jdk9/openjdk/build/linux-x86_64-normal-server-release/buildjdk-spec.gmk
+config.status: creating /home/xknower/Desktop/openjdk/jdk9/openjdk/build/linux-x86_64-normal-server-release/compare.sh
+config.status: creating /home/xknower/Desktop/openjdk/jdk9/openjdk/build/linux-x86_64-normal-server-release/Makefile
+
+====================================================
+A new configuration has been successfully created in
+/home/xknower/Desktop/openjdk/jdk9/openjdk/build/linux-x86_64-normal-server-release
+using configure arguments '--with-boot-jdk=/home/xknower/Desktop/openjdk/jdk8/java-se-8u41-ri'.
+
+Configuration summary:
+* Debug level:    release
+* HS debug level: product
+* JDK variant:    normal
+* JVM variants:   server
+* OpenJDK target: OS: linux, CPU architecture: x86, address length: 64
+* Version string: 9-internal+0-adhoc.xknower.openjdk (9-internal)
+
+Tools summary:
+* Boot JDK:       openjdk version "1.8.0_41" OpenJDK Runtime Environment (build 1.8.0_41-b04) OpenJDK 64-Bit Server VM (build 25.40-b25, mixed mode)  (at /home/xknower/Desktop/openjdk/jdk8/java-se-8u41-ri)
+* Toolchain:      gcc (GNU Compiler Collection)
+* C Compiler:     Version 9.3.0 (at /usr/bin/gcc)
+* C++ Compiler:   Version 9.3.0 (at /usr/bin/g++)
+
+Build performance summary:
+* Cores to use:   3
+* Memory limit:   3901 MB
+
+The following warnings were produced. Repeated here for convenience:
+WARNING: libelf not found, cannot build AOT. You might be able to fix this by running 'sudo apt-get install libelf-dev'.

@@ -1,0 +1,32 @@
+Attaching to process ID 19703, please wait...
+Debugger attached successfully.
+Server compiler detected.
+JVM version is 25.181-b13
+0x0000000000400000	7K	/usr/local/java/jdk1.8.0_181/bin/java
+0x00007f89c94bc000	251K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/libsunec.so
+0x00007f89ca905000	91K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/libnio.so
+0x00007f89cad16000	66K	/usr/lib64/libbz2.so.1.0.6
+0x00007f89caf26000	153K	/usr/lib64/liblzma.so.5.2.2
+0x00007f89cb14c000	88K	/usr/lib64/libz.so.1.2.7
+0x00007f89cb362000	97K	/usr/lib64/libelf-0.176.so
+0x00007f89cb57a000	19K	/usr/lib64/libattr.so.1.1.0
+0x00007f89cb77f000	86K	/usr/lib64/libgcc_s-4.8.5-20150702.so.1
+0x00007f89cb995000	330K	/usr/lib64/libdw-0.176.so
+0x00007f89cbbe6000	19K	/usr/lib64/libcap.so.2.22
+0x00007f89cbdeb000	84K	/usr/lib64/libnss_myhostname.so.2
+0x00007f8a0816d000	107K	/usr/lib64/libresolv-2.17.so
+0x00007f8a08387000	30K	/usr/lib64/libnss_dns-2.17.so
+0x00007f8a0858e000	112K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/libnet.so
+0x00007f8a089a5000	49K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/libmanagement.so
+0x00007f8a7f9a5000	125K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/libzip.so
+0x00007f8a7fbc1000	60K	/usr/lib64/libnss_files-2.17.so
+0x00007f8a7fdd4000	221K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/libjava.so
+0x00007f8a84124000	64K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/libverify.so
+0x00007f8a84333000	42K	/usr/lib64/librt-2.17.so
+0x00007f8a8453b000	1110K	/usr/lib64/libm-2.17.so
+0x00007f8a8483d000	16668K	/usr/local/java/jdk1.8.0_181/jre/lib/amd64/server/libjvm.so
+0x00007f8a8583e000	2105K	/usr/lib64/libc-2.17.so
+0x00007f8a85c0c000	18K	/usr/lib64/libdl-2.17.so
+0x00007f8a85e10000	101K	/usr/local/java/jdk1.8.0_181/lib/amd64/jli/libjli.so
+0x00007f8a86026000	138K	/usr/lib64/libpthread-2.17.so
+0x00007f8a86242000	159K	/usr/lib64/ld-2.17.so

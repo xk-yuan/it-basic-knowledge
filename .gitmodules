@@ -1,0 +1,51 @@
+#####
+# IT Computer Basic Knowledge
+#####
+
+# 1. computer-architecture
+
+[submodule "computer-architecture"]
+	path = 01-computer-architecture
+	url = https://github.com/xk-yuan/it-computer-architecture.git
+
+# 2. operating-system-principle
+
+[submodule "operating-system-principle"]
+	path = 02-operating-system-principle
+	url = https://github.com/xk-yuan/it-operating-system-principle.git
+
+# 3. data-structure-algorithm
+
+[submodule "data-structure-algorithm"]
+	path = 03-data-structure-algorithm
+	url = https://github.com/xk-yuan/it-data-structure-algorithm.git
+
+# 4. compilers-principles
+
+[submodule "compilers-principles"]
+	path = 04-compilers-principles
+	url = https://github.com/xk-yuan/it-compilers-principles.git
+
+# 5. programming-language
+
+[submodule "programming-language"]
+	path = 05-programming-language
+	url = https://github.com/xk-yuan/it-programming-language.git
+
+# 6. network
+
+[submodule "network"]
+	path = 06-network
+	url = https://github.com/xk-yuan/it-network.git
+
+# 7. storage-principle-database
+
+[submodule "database-storage-principle"]
+	path = 07-storage-principle-database
+	url = https://github.com/xk-yuan/it-storage-principle-database.git
+
+# 8. software-engineering
+
+[submodule "software-engineering"]
+	path = 08-software-engineering
+	url = https://github.com/xk-yuan/it-software-engineering.git

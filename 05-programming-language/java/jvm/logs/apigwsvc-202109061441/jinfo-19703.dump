@@ -1,0 +1,73 @@
+Attaching to process ID 19703, please wait...
+Debugger attached successfully.
+Server compiler detected.
+JVM version is 25.181-b13
+Java System Properties:
+
+java.runtime.name = Java(TM) SE Runtime Environment
+java.vm.version = 25.181-b13
+sun.boot.library.path = /usr/local/java/jdk1.8.0_181/jre/lib/amd64
+java.protocol.handler.pkgs = org.springframework.boot.loader
+java.vendor.url = http://java.oracle.com/
+java.vm.vendor = Oracle Corporation
+path.separator = :
+file.encoding.pkg = sun.io
+java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+sun.os.patch.level = unknown
+sun.java.launcher = SUN_STANDARD
+user.country = US
+user.dir = /yxtyw/app/apigwsvc
+java.vm.specification.name = Java Virtual Machine Specification
+PID = 19703
+java.runtime.version = 1.8.0_181-b13
+java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+os.arch = amd64
+java.endorsed.dirs = /usr/local/java/jdk1.8.0_181/jre/lib/endorsed
+line.separator = 
+
+java.io.tmpdir = /tmp
+java.vm.specification.vendor = Oracle Corporation
+os.name = Linux
+LOG_LEVEL_PATTERN = %5p [,%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}]
+sun.jnu.encoding = UTF-8
+java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+spring.beaninfo.ignore = true
+java.specification.name = Java Platform API Specification
+java.class.version = 52.0
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+os.version = 5.4.125-1.el7.elrepo.x86_64
+user.home = /root
+user.timezone = Asia/Shanghai
+catalina.useNaming = false
+java.awt.printerjob = sun.print.PSPrinterJob
+file.encoding = UTF-8
+@appId = apigwsvc
+java.specification.version = 1.8
+catalina.home = /tmp/tomcat.8555456763132594639.10531
+rocketmq.client.log.loadconfig = false
+user.name = root
+java.class.path = /yxtyw/app/apigwsvc/yxt_cloud_gateway-1.0.0-exec.jar
+java.vm.specification.version = 1.8
+sun.arch.data.model = 64
+sun.java.command = /yxtyw/app/apigwsvc/yxt_cloud_gateway-1.0.0-exec.jar --spring.profiles.active=fsprod --spring.cloud.consul.host=10.34.17.23 --spring.cloud.consul.port=8500
+java.home = /usr/local/java/jdk1.8.0_181/jre
+user.language = en
+java.specification.vendor = Oracle Corporation
+awt.toolkit = sun.awt.X11.XToolkit
+java.vm.info = mixed mode
+java.version = 1.8.0_181
+java.ext.dirs = /usr/local/java/jdk1.8.0_181/jre/lib/ext:/usr/java/packages/lib/ext
+sun.boot.class.path = /usr/local/java/jdk1.8.0_181/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_181/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_181/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_181/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_181/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_181/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_181/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_181/jre/classes
+java.awt.headless = true
+java.vendor = Oracle Corporation
+catalina.base = /tmp/tomcat.8555456763132594639.10531
+file.separator = /
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding = UnicodeLittle
+sun.cpu.endian = little
+sun.cpu.isalist = 
+
+VM Flags:
+Non-default VM flags: -XX:CICompilerCount=12 -XX:InitialHeapSize=4294967296 -XX:MaxHeapSize=12884901888 -XX:MaxNewSize=4294967296 -XX:MinHeapDeltaBytes=524288 -XX:NewSize=1431306240 -XX:OldSize=2863661056 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+Command line:  -Xms4096m -Xmx12288m
+
